@@ -182,7 +182,7 @@ header{
     line-height: 14px;
 }
 .banner-wrapper{
-    background-image: url(/assets/img/kid-banner.png);
+    background-image: url(../img/kid-banner.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -438,7 +438,7 @@ header{
     color: #C58A46;
 } 
 .category-wrapp a.active::before{
-    content: url(/assets/img/ramka.svg);
+    content: url(../img/ramka.svg);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -861,7 +861,7 @@ header{
     transition: .3s;
 }
 .footer-wrapper .btn-top::before{
-    content: url(/assets/img/border.svg);
+    content: url(../img/border.svg);
     position: absolute;
     top: 50%;
     left: 50%;
