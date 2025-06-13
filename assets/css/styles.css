@@ -2338,8 +2338,12 @@ header{
     .header-ul li a {
         font-size: 10px;
         line-height: 10px;
+        color: black;
+        font-weight: 400;
     }
-
+    .none{
+        display: none;
+    }
     .search-cart {
         gap: 18px;
     }
@@ -2356,17 +2360,22 @@ header{
         width: 10px;
         height: 10px;
         left: 6px;
+        background-image: url('../img/search-black.svg');
     }
 
     .search input {
         font-size: 10px;
         line-height: 10px;
         padding: 3px 6px 3px 22px;
+        text-decoration: none;
+        color: black;
     }
 
     .search input::placeholder {
         font-size: 10px;
         line-height: 10px;
+        text-decoration: none;
+        color: black;
     }
 
     .cart a {
